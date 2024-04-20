@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionOne{
+
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    
+}
+
+.sectionOne img {
+
+   width: 40px;
+
+}
+
+
+.sectionTwo {
+
+    background-color: #aa0404;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80rem;
+    padding:8px;
+    margin: 2px;
+    
+}
+
+.sectionTwo span {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: chartreuse; */
+    width: 9rem;
+    padding: 4px;
+    font-size: 14px;
+    height: 15px;
+}
+
+.sectionTwo span svg {
+
+    width: 13px;
+    fill: white;
+    stroke: white;
+} 
+
+.sectionThree {
+
+    /* background-color: aqua; */
+    height: 350px;
+    width: 81rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+
+}
+
+.sectionThree .presidentImg {
+
+    background-color: brown;
+    width: 600px;
+}
+
+.presidentImg img {
+
+    width: 670px;
+}
+
+.sideBar {
+
+    background-color: rgb(184, 187, 187);
+    width: 400px;
+    /* margin-right: 200px; */
+}
+
+.parentDiv{
+
+    /* background-color: rgb(2, 2, 54); */
+    width: 81rem;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.childDiv {
+
+    /* background-color: rgb(222, 245, 245); */
+    width: 350px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.childDiv span {
+ 
+    /* background-color: aqua; */
+    width: 340px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(182, 179, 179);
+    
+
+}
+
+.childDiv span :hover {
+
+    color: red;
+    text-decoration: underline;
+}
+
+.childDiv h3 {
+
+    display: flex;
+    /* background-color: aqua; */
+    width: 340px;
+    padding: 5px;
+    border-bottom: 4px solid #aa0404;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.presidentImage {
+
+    /* background-color: #aa0404; */
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.presidentImageBar img{
+
+    width: 260px;
+    
+}
+
+.presidentImage p {
+
+    background-color: rgb(172, 166, 166);
+    text-align: center;
+    padding: 5px;
+    width: 250px;
+    height: 50px;
+    
+}
