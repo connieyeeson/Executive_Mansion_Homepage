@@ -226,13 +226,14 @@ body{
 .sectionFour div p {
 
     background-color: rgb(214, 213, 216);
-    height: 90px;
+    height: 150px;
     width: 550px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     font-size: 1.5rem;
     color: #aa0404;
+    cursor: pointer;
     
 }
  
@@ -241,4 +242,51 @@ body{
     width: 3.5rem;
     margin: 10px;
     fill: gray;
+    height: 4rem;
 }
+
+.baseline img {
+
+    width: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.baseline {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.baseline div {
+    width: 80rem;
+    height: 20rem;
+    background-color: rgb(10, 10, 53);
+    display: flex;
+    justify-content: space-between;
+}
+
+.baseline div span {
+
+    color: white;
+    /* background-color: brown; */
+    padding: 20px;
+    width: 19rem;
+    font-size: 1.2rem;
+}
+
+.baseline div span svg {
+
+    width: 10px;
+    margin: 5px;
+    fill:white;
+}
+
+.baseline div span p {
+
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
